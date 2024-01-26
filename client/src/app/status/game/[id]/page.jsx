@@ -66,10 +66,10 @@ const GameStatusPage = () => {
 
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                    <TableHead sx={{backgroungColor:"purple"}}>
+                    <TableHead sx={{backgroundColor: "purple"}}>
                         <TableRow>
-                            <TableCell align="center">Player name</TableCell>
-                            <TableCell align="center">Actions</TableCell>
+                            <TableCell align="center" sx={{ color: "white"}}>Player name</TableCell>
+                            <TableCell align="center" sx={{ color: "white"}}>Actions</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody sx={{ backgroundColor: "whitesmoke"}}>
